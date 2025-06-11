@@ -58,6 +58,9 @@ summary['Month']=summary['Date'].dt.month
 summary["Day"]=summary["Date"].dt.day
 print(summary)
 print(df)
+# print(df.info)
+#1.7
+# summary['Year'].value_counts().sort_index()
 
 
 #1,7
